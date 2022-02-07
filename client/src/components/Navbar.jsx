@@ -24,9 +24,11 @@ const Navbar = () => {
             {['Market', 'Exchange', 'Tutorials', 'Wallets'].map((item, index) => (
                    <NavbarItem key={item + index} title={item} />  
             ))}
+             <a href="https://vimeo.com/674487598" target="_blank" rel="noreferrer">
             <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
-                <a href="https://vimeo.com/674487598" target="_blank" rel="noreferrer"> Watch a Demo Transaction </a>
+                Watch a Demo Transaction 
             </li>
+            </a>
         </ul>
         <div className="flex relative">
                 {toggleMenu
